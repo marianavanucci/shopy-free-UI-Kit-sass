@@ -97,6 +97,7 @@ $blackColor: black;
 @mixin quaternaryFont{
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
+    font-size: 24px;
 }
 
 @mixin flexCenter{
@@ -170,12 +171,45 @@ body{
     margin-top: 40px;
 }
 
-.figma-image{
-  width: 71px;
-  height: 71px;
-  background-color: $neutralColor;
+.subtitle2{
+    margin-left: 56px;
 }
 
 // .subtitles:nth-child(2) {
-//     margin-left: 56px;
-//   }
+//     //     margin-left: 56px;
+//     //   }
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    margin-top: 50px;
+    
+}
+
+.figma-image{
+    width: 71px;
+    height: 71px;
+    background-color: $neutralColor;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.sketch-image{
+    width: 71px;
+    height: 71px;
+    background-color: $neutralColor;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.creator{
+    @include quaternaryFont();
+    color:$secondaryColor;
+}

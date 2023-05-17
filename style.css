@@ -159,8 +159,41 @@ body {
   margin-top: 40px;
 }
 
+.subtitle2 {
+  margin-left: 56px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  margin-top: 50px;
+}
+
 .figma-image {
   width: 71px;
   height: 71px;
   background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.sketch-image {
+  width: 71px;
+  height: 71px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.creator {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #83A5FF;
 }/*# sourceMappingURL=style.css.map */
